@@ -699,11 +699,14 @@ address {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-close {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
 }
 
 .is-hidden {
